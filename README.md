@@ -1,6 +1,33 @@
-# React + Vite
+# SAT Practice Debt Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+The app is deployed automatically to GitHub Pages whenever `main` is updated.
+
+After enabling Pages in the repository settings, choose **GitHub Actions** as the
+source. The published site will be available at:
+
+https://l-logix.github.io/satsuite/
+
+## Local development
+
+```bash
+npm install
+npm run dev
+```
+
+## Production build
+
+```bash
+npm run build
+```
+
+## Deployment
+
+The workflow in `.github/workflows/deploy.yml` builds the Vite app and publishes
+the `dist` directory using the official GitHub Pages deployment action.
+
+## Project notes
+
+This project uses React, Vite, Tailwind CSS, and Oxlint.
 
 Currently, two official plugins are available:
 
